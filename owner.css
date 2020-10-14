@@ -1,0 +1,57 @@
+@keyframes oner
+{
+    0% {opacity: 0%;}
+    50%{opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+.owner
+{
+    animation: oner 6s;
+    color: white;
+    position: absolute;
+    top: 62vh;
+    left: 50vw;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.owner2
+{
+    animation: oner 6s;
+    color: white;
+    position: absolute;
+    top: 30vh;
+    left: 50vw;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.wone:link
+{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.849);
+}
+
+.wone:visited
+{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.849);
+
+}
+
+.wone:hover
+{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    color: white;
+}
+
+.wone:active
+{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    color: white;
+}
